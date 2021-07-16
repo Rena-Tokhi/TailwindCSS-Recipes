@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
 </head>
 
 <body class="text-gray-600 font-body ">
 
-    <div class="grid  md:grid-cols-3  min-h-fullgit ">
+    <div class="grid  md:grid-cols-3  min-h-full ">
         <div class=" md:col-span-1 md:flex md:justify-end">
             <nav class=" text-right">
                 <div class=" flex justify-between items-center "> 
@@ -25,7 +27,7 @@
                 <hr>
                 <ul class=" text-sm mt-6 hidden md:block " id="menu">
                     <li class="text-gray-700 font-bold uppercase py-1">
-                        <a href="#" class=" px-4 flex justify-end border-r-4 border-primary">
+                        <a href="#" class=" px-4 flex justify-end border-r-4 border-red-400">
                             <span>Home</span>
                             <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -63,10 +65,10 @@
         <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end">
                 <a href="#"
-                    class="text-primary rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider border-primary  md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">
+                    class="text-red-400 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider border-red-400  md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500">
                     LOG IN</a>
                 <a href="#"
-                    class="text-primary ml-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider border-primary  md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500 ">
+                    class="text-red-400 ml-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider border-red-400  md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500 ">
                     SIGN UP</a>
             </div>
 
@@ -87,7 +89,7 @@
                             <span class=" block text-gray-500 text-sm "> Recipe by tokhi</span>
                         </div>
                         <div
-                            class=" bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
+                            class=" bg-gray-100 text-gray-400 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
                             <!-- <svg fill="none" storke-linecap="round" storke-linejoin="round" storke-width="2"
                                 storke="currentColor" viewBox="0 0 24 24">
                                 <path d="M12 8v413 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -108,7 +110,7 @@
                             <span class=" block text-gray-500 text-sm "> Recipe by tokhi</span>
                         </div>
                         <div
-                            class=" bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
+                            class=" bg-gray-100 text-gray-400 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
                             <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -125,7 +127,7 @@
                             <span class=" block text-gray-500 text-sm "> Recipe by tokhi</span>
                         </div>
                         <div
-                            class=" bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
+                            class=" bg-gray-100 text-gray-400 text-xs uppercase font-bold rounded-full  p-2 absolute top-0  ml-2 mt-2 ">
                             <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -143,7 +145,7 @@
 
                 <div class=" flex justify-center">
                     <div
-                        class="bg-secondary-100 text-secondary-200 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300 ">
+                        class="bg-gray-500 text-gray-800 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300 ">
                         Lode more</div>
                 </div>
             </div>
